@@ -2,6 +2,13 @@
 
 `diff-so-fancy` strives to make your diffs **human** readable instead of machine readable. This helps improve code quality and helps you spot defects faster.
 
+## TL;DR
+
+This branch is a fix for very old Perl 5.8 on very old machine.
+
+```bash
+wget https://raw.githubusercontent.com/jfcherng/diff-so-fancy/feature/fix-for-perl58/third_party/build_fatpack/diff-so-fancy --no-check-certificate -O /usr/local/bin/diff-so-fancy 
+```
 
 ## Screenshot
 
@@ -11,7 +18,7 @@ Vanilla `git diff` vs `git` and `diff-so-fancy`
 
 ## Install
 
-Installation is as simple as downloading the [`diff-so-fancy`](https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy) script to a directory in your path.
+Installation is as simple as downloading the [`diff-so-fancy`](https://raw.githubusercontent.com/jfcherng/diff-so-fancy/feature/fix-for-perl58/third_party/build_fatpack/diff-so-fancy) script to a directory in your path.
 Windows users may need to install [MinGW](https://sourceforge.net/projects/mingw/files/) or the [Windows subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 `diff-so-fancy` is also available from NPM, Nix, brew, and as a package on Arch Linux.
